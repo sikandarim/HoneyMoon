@@ -16,6 +16,13 @@
 		0F825BA12B02CB9C00A94D26 /* HoneyMoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BA02B02CB9C00A94D26 /* HoneyMoonData.swift */; };
 		0F825BA52B02CC2C00A94D26 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BA42B02CC2C00A94D26 /* CardView.swift */; };
 		0F825BA72B02D00D00A94D26 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BA62B02D00D00A94D26 /* HeaderView.swift */; };
+		0F825BA92B02D6EF00A94D26 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BA82B02D6EF00A94D26 /* FooterView.swift */; };
+		0F825BAC2B030B6200A94D26 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BAB2B030B6200A94D26 /* HeaderComponent.swift */; };
+		0F825BAE2B030C6100A94D26 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BAD2B030C6100A94D26 /* GuideComponent.swift */; };
+		0F825BB02B039BFD00A94D26 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BAF2B039BFD00A94D26 /* GuideView.swift */; };
+		0F825BB42B138D2A00A94D26 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BB32B138D2A00A94D26 /* TitleModifier.swift */; };
+		0F825BB72B143C1000A94D26 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BB62B143C1000A94D26 /* ButtonModifier.swift */; };
+		0F825BB92B14E2B200A94D26 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F825BB82B14E2B200A94D26 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		0F825BA02B02CB9C00A94D26 /* HoneyMoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyMoonData.swift; sourceTree = "<group>"; };
 		0F825BA42B02CC2C00A94D26 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0F825BA62B02D00D00A94D26 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0F825BA82B02D6EF00A94D26 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		0F825BAB2B030B6200A94D26 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		0F825BAD2B030C6100A94D26 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		0F825BAF2B039BFD00A94D26 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		0F825BB32B138D2A00A94D26 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		0F825BB62B143C1000A94D26 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		0F825BB82B14E2B200A94D26 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,8 @@
 		0F825B892B02C7C900A94D26 /* HoneyMoon */ = {
 			isa = PBXGroup;
 			children = (
+				0F825BB52B138D6900A94D26 /* Modifiers */,
+				0F825BAA2B030B4600A94D26 /* Component */,
 				0F825BA32B02CC0D00A94D26 /* View */,
 				0F825BA22B02CBA300A94D26 /* Data */,
 				0F825B9F2B02CAAB00A94D26 /* Model */,
@@ -70,7 +86,6 @@
 				0F825B982B02C95100A94D26 /* Sound */,
 				0F825B902B02C7CB00A94D26 /* Preview Content */,
 				0F825B9C2B02CA5F00A94D26 /* Info.plist */,
-				0F825BA02B02CB9C00A94D26 /* HoneyMoonData.swift */,
 			);
 			path = HoneyMoon;
 			sourceTree = "<group>";
@@ -94,6 +109,7 @@
 		0F825BA22B02CBA300A94D26 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0F825BA02B02CB9C00A94D26 /* HoneyMoonData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -104,8 +120,29 @@
 				0F825B8C2B02C7C900A94D26 /* ContentView.swift */,
 				0F825BA42B02CC2C00A94D26 /* CardView.swift */,
 				0F825BA62B02D00D00A94D26 /* HeaderView.swift */,
+				0F825BA82B02D6EF00A94D26 /* FooterView.swift */,
+				0F825BAF2B039BFD00A94D26 /* GuideView.swift */,
+				0F825BB82B14E2B200A94D26 /* InfoView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0F825BAA2B030B4600A94D26 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0F825BAB2B030B6200A94D26 /* HeaderComponent.swift */,
+				0F825BAD2B030C6100A94D26 /* GuideComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		0F825BB52B138D6900A94D26 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				0F825BB32B138D2A00A94D26 /* TitleModifier.swift */,
+				0F825BB62B143C1000A94D26 /* ButtonModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,11 +217,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F825BA12B02CB9C00A94D26 /* HoneyMoonData.swift in Sources */,
+				0F825BA92B02D6EF00A94D26 /* FooterView.swift in Sources */,
+				0F825BB42B138D2A00A94D26 /* TitleModifier.swift in Sources */,
 				0F825BA72B02D00D00A94D26 /* HeaderView.swift in Sources */,
 				0F825B8D2B02C7C900A94D26 /* ContentView.swift in Sources */,
+				0F825BB92B14E2B200A94D26 /* InfoView.swift in Sources */,
+				0F825BB72B143C1000A94D26 /* ButtonModifier.swift in Sources */,
+				0F825BAC2B030B6200A94D26 /* HeaderComponent.swift in Sources */,
 				0F825B9E2B02CAA600A94D26 /* HoneyMoonModel.swift in Sources */,
 				0F825B8B2B02C7C900A94D26 /* HoneyMoonApp.swift in Sources */,
 				0F825BA52B02CC2C00A94D26 /* CardView.swift in Sources */,
+				0F825BAE2B030C6100A94D26 /* GuideComponent.swift in Sources */,
+				0F825BB02B039BFD00A94D26 /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
